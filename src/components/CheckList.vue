@@ -17,10 +17,10 @@ export default {
 
 <style lang="scss">
 .check-list {
-	display: flex;
-	flex-direction: column;
-	max-width: 300px;
-	margin: 0 auto;
-	align-items: start;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  align-items: start;
 }
 </style>

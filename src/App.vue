@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <checklist :list="list"/>
+    <checklist :list="list" />
   </div>
 </template>
 
@@ -8,20 +8,25 @@
 import Checklist from "@/components/CheckList";
 
 export default {
-	name: "App",
+  name: "App",
   data() {
     return {
       list: [
-        { id: 1, title: "disabled & checked", option1: "disabled", option2: "checked" },
+        {
+          id: 1,
+          title: "disabled & checked",
+          option1: "disabled",
+          option2: "checked",
+        },
         { id: 2, title: "disabled", option1: "disabled", option2: "" },
         { id: 3, title: "click 1", option1: "", option2: "" },
         { id: 4, title: "click 2", option1: "", option2: "" },
-      ]
+      ],
     };
   },
   components: {
     Checklist,
-  }
+  },
 };
 </script>
 

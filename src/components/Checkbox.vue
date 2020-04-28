@@ -36,9 +36,9 @@ export default {
   },
   methods: {
     clickChecked() {
-			if(this.item.option1 !== "disabled") {
-				this.checked = !this.checked
-			}
+      if (this.item.option1 !== "disabled") {
+        this.checked = !this.checked;
+      }
     },
   },
 };
@@ -65,7 +65,7 @@ input[type='checkbox']
 		display: inline-flex
 		position: relative
 		z-index: 1
-		
+
 		&:active
 			&::before
 				background: rgba(180, 180, 180, 0.3)
